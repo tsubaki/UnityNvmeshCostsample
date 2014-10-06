@@ -15,7 +15,7 @@ public class ChangeNavigationCost : MonoBehaviour {
 
 	void Start()
 	{
-		SetNavmeshRoot(5);
+		SetNavmeshRoot(1);
 	}
 
 	void OnGUI()
@@ -25,5 +25,6 @@ public class ChangeNavigationCost : MonoBehaviour {
 			if( GUILayout.Button(string.Format("root{0} ({1:000})", i, NavMesh.GetLayerCost( i + 3))))
 				SetNavmeshRoot(i);
 		}
+
 	}
 }

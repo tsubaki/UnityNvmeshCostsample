@@ -1,5 +1,7 @@
 fileFormatVersion: 2
-guid: 49b628621ff394fba950393a9932ea03
+guid: af3f1033d467b4de1b331684093598c7
+labels:
+- Demo2
 TextureImporter:
   fileIDToRecycleName: {}
   serializedVersion: 2
